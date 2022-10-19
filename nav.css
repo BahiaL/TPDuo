@@ -1,11 +1,15 @@
 ul li{
     list-style-type: none;
 }
+/* burger */
+nav{
+    display: flex;
+}
 
 #burgerOn{
     display:none;
     position: absolute;
-    justify-content: left;
+    justify-content: right;
     flex-direction: column;
 }
 
@@ -21,16 +25,22 @@ ul li{
     display: block;    
 }
 
-nav{
-    display: flex;
-}
+
 
 header{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
+    background-color: black;       
 }
 
+nav ul li{
+    font-size: 125%;    
+}
 
+a:link, a:visited{
+    color: grey;
+    text-decoration: none;    
+}
 
 
 
