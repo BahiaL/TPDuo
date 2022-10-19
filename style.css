@@ -126,7 +126,7 @@ a:hover{
 }
 /* main */
 main{
-    margin: 1% 4%;
+    margin: 0% 10%;
 }
 
 h1{
@@ -138,8 +138,8 @@ h1{
 }
 
 p{
-    text-align: center;
-    font-size: 125%;    
+    text-align: justify;
+    font-size: 125%;              
 }
 
 h2{
@@ -152,12 +152,15 @@ h2{
 
 .small{
     width: 10%;
-    height: 10%;
+    height: 10%;    
 }
 
 article{
     display: block;
 }
+
+
+
 
 
 
