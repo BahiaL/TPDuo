@@ -1,0 +1,22 @@
+#slide{
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;    
+}
+
+.imageslide{
+    display: flex;
+    height: 500px;
+    width: 100%; 
+}
+
+
+.navimage{
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: blue;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;   
+}
