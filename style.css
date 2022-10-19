@@ -31,8 +31,51 @@ header{
 
 #logo{
 	margin: 5px;
-	height: 100px;
+	height: 200px;
 	width: auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;       
+}
+
+/* nav */
+
+ul li{
+    list-style-type: none;
+}
+/* burger */
+nav{
+    display: flex;
+}
+
+#burgerOn{
+    display:none;
+    position: absolute;
+    justify-content: right;
+    flex-direction: column;
+}
+
+#burgerOn:target{
+    display: flex;            
+}
+
+#burgerOff:target{
+    display: none;
+}
+
+#burgerOff{
+    display: block;    
+}
+
+nav ul li{
+    font-size: 125%;    
+}
+
+a:link, a:visited{
+    color: grey;
+    text-decoration: none;    
+}
 
