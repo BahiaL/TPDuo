@@ -5,7 +5,8 @@
 }
 
 div>*:hover {
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.63);
+    border-radius: 50%;
 }
 
 .haut {
@@ -22,3 +23,21 @@ div>*:hover {
     margin-left: 70px ;
 }
 
+#nordeste {
+    margin-left: -40px;
+    margin-top: 40px;
+}
+
+#centrooeste{
+    margin-top: -150px;
+    margin-left: 70px;
+}
+
+#sudeste{
+    margin-left: -90px;
+    margin-top: -20px;
+}
+
+#sul{
+    margin-top: -50px;
+}
