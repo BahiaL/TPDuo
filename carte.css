@@ -1,0 +1,21 @@
+
+
+
+div>*:hover {
+    background-color: yellow;
+}
+
+.haut {
+    display: flex;
+}
+
+.milieu{
+    display: flex;
+    align-items: center;
+}
+
+.bas{
+    display: flex;
+    margin-left: 50px ;
+}
+
