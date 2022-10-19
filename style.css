@@ -23,10 +23,16 @@ time, mark, audio, video {
 
 /* css */
 
-h1{
-    color: green;
+/* header */
+
+header{
+	background-color: black ;
 }
 
-p{
-    color: blue;
+#logo{
+	margin: 5px;
+	height: 100px;
+	width: auto;
 }
+
+
