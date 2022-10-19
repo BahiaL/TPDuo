@@ -124,3 +124,41 @@ a:hover{
     width: 3px;
     border-radius: 50%; 
 }
+/* main */
+main{
+    margin: 1% 4%;
+}
+
+h1{
+    color: #502faa91;
+    text-align: center;
+    font-size: 250%;
+    font-weight: bolder;
+    margin: 0 0 10px 0;    
+}
+
+p{
+    text-align: center;
+    font-size: 125%;    
+}
+
+h2{
+    color: #502faa91;
+    text-align: left;
+    font-size: 200%;
+    font-weight: bolder;
+    margin: 0 0 10px 0;
+}
+
+.small{
+    width: 10%;
+    height: 10%;
+}
+
+article{
+    display: block;
+}
+
+
+
+
