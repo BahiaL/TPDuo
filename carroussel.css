@@ -31,14 +31,3 @@
     width: 3px;
     border-radius: 50%; 
 }
-
-#droite{
-    position: relative;
-}
-
-.fleche{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    
-}
