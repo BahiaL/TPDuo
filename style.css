@@ -118,8 +118,8 @@ a:hover{
     display: inline-flex;
     align-items: center;
     background-color: #358122;
-    height: 2px;
-    width: 2px;
+    height: 4px;
+    width: 4px;
     border-radius: 50%; 
 }
 
@@ -147,7 +147,7 @@ h2{
     text-align: left;
     font-size: 200%;
     font-weight: bolder;
-    margin: 0 0 10px 0;
+    margin: 40px 0 0 0;
 }
 
 .small{
@@ -159,8 +159,9 @@ h2{
     display: block;
 }
 
+
 a[href="#pgUp"]{
-    color: #368851;
+    color: #368851;    
 }
 
 a[href="#pgUp"]:hover{
