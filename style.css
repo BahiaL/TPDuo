@@ -121,7 +121,9 @@ a:hover{
     width: 2px;
     border-radius: 50%; 
 }
+
 /* main */
+
 main{
     margin: 0 10px;
 }
@@ -258,6 +260,7 @@ fieldset{
 }
 
 form{
+    border: 2px;
     color: blue;
     font-weight: bolder;
 }
@@ -295,10 +298,6 @@ footer li{
 li:hover{    
     font-weight: bolder;
 } 
-
-form{
-    border: 2px;
-}
 
 @media screen and (max-width:900px) {
 
