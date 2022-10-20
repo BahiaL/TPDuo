@@ -366,10 +366,9 @@ li:hover{
 
     /* page folklore */
 
-    @media screen and (max-width:900px) {
-        .imggalerie{
-            height: 80px;
-        }
+    
+    .imggalerie{
+        height: 80px;
     }
 
     /* videos folklore */
