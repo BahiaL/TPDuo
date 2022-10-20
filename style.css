@@ -302,7 +302,7 @@ li:hover{
     font-weight: bolder;
 } 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width: 1280px) {
 
     header{
         padding-bottom: 40px;
@@ -388,6 +388,4 @@ li:hover{
         padding: 20px;
         text-align: center;
     }
-
-
 }
