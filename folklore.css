@@ -1,0 +1,29 @@
+#galerie{
+    text-align: center;
+    margin: 50px;   
+}
+
+.imggalerie{
+    height: 150px;
+    padding: 10px;
+}
+
+.videos h2{
+    text-align: center;
+}
+
+.videos{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+video{
+        width: 100%;
+    }
+@media screen and (max-width:900px) {
+    .imggalerie{
+        height: 80px;
+    }
+}
