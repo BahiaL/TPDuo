@@ -3,7 +3,7 @@ fieldset{
 }
 
 form{
-    color: #2662F5;
+    color: blue;
     font-weight: bolder;
 }
 
@@ -15,10 +15,4 @@ form{
 
 legend{
     font-size: larger;
-}
-h1{
-    color:#2662F5;
-}
-body{
-    background-color: #f4e458;
 }
