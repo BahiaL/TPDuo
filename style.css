@@ -249,10 +249,6 @@ a[href="#pgUp"]:hover{
     border: 2px solid green;
 }
 
-video{
-        width: 100%;
-}
-
 /* formulaire et page contact */
 
 fieldset{
@@ -367,5 +363,11 @@ li:hover{
         .imggalerie{
             height: 80px;
         }
+    }
+
+    /* videos folklore */
+
+    iframe{
+        width: 100%;
     }
 }
