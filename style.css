@@ -122,7 +122,7 @@ a:hover{
 }
 /* main */
 main{
-    margin: 0% 10%;
+    margin: 0 10px;
 }
 
 h1{
@@ -224,21 +224,18 @@ footer{
     justify-content: space-between;        
 }
 
-footer p{    
+footer p, footer ul{
+    display: flex;    
     color: black;        
-}
-
-footer ul{
-    display: flex;
-}
+} 
 
 footer li{
     margin: 0 4px;
 }
 
 li:hover{    
-    font-weight: bold;
-}
+    font-weight: bolder;
+} 
 
 form{
     border: 2px;
@@ -252,8 +249,7 @@ form{
     
 
     ul li{
-        list-style-type: none;
-        background-color: black;
+        list-style-type: none;        
     }
     /* burger */
     nav{
@@ -282,7 +278,7 @@ form{
         display: block;    
     }
 
-    nav ul li{
+    nav li{
         font-size: 125%;    
     }
 
@@ -303,11 +299,13 @@ form{
         margin-left: -20px;
     }
 
-    footer, ul{
+    footer{
         display: block;        
     }
 
-    footer li{
-
+    footer p, footer ul{
+        margin: 10px;
+        justify-content: center;        
     }
+    
 }
