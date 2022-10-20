@@ -1,0 +1,15 @@
+#galerie{
+    text-align: center;
+    margin: 50px;   
+}
+
+.imggalerie{
+    height: 150px;
+    padding: 10px;
+}
+
+@media screen and (max-width:900px) {
+    .imggalerie{
+        height: 80px;
+    }
+}
