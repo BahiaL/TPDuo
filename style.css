@@ -47,34 +47,38 @@ ul li{
 }
 
 nav{   
-    margin: 4px 10px 0 0;           
+    margin: 0 0 10px 50px; 
+    display: flex;
+    align-items: flex-end;          
+}
+
+nav img{
+    display: none;
 }
 
 #burgerOn{
     display:flex;            
 }
 
-/* #burgerOn:target{
-    display: none;            
-}
-
-#burgerOff:target{
-    display: none;
-} */
-
 #burgerOff{
     display: none;    
 }
 
 nav ul li{
-    font-size: 125%;    
+    font-size: 125%; 
+    padding: 10px;   
 }
 
-a:link, a:visited, .here{
+a:link, a:visited{
     color: #f5b926;
     text-decoration: none; 
 	font-weight: bolder; 
-	padding: 10px; 
+}
+
+.here{
+    color: #368851;
+    text-decoration: none; 
+	font-weight: bolder; 
 }
 
 a:hover{
@@ -148,13 +152,6 @@ h2{
 
 .articlesmall{
     display: block;
-}
-
-a:link, a:visited, .here{
-    color: #358122;
-    text-decoration: none; 
-    font-weight: bolder; 
-    padding: 10px; 
 }
 
 /* carte et page bresil  */
@@ -270,6 +267,10 @@ form{
         flex-direction: column;
     }
 
+    nav img{
+        display: flex;
+    }
+
     #burgerOn:target{
         display: flex;            
     }
@@ -286,18 +287,7 @@ form{
         font-size: 125%;    
     }
 
-    a:link, a:visited, .here{
-        color: #f5b926;
-        text-decoration: none; 
-        font-weight: bolder; 
-        padding: 10px; 
-    }
-
-    a:hover{
-        color: #368851;
-    }
-
-    /* carte */
+    /* carte --------------------------------------------------*/
 
     #carte{
         margin-left: -20px;
