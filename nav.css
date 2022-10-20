@@ -1,46 +1,12 @@
-ul li{
-    list-style-type: none;
-}
-/* burger */
-nav{
-    display: flex;
-}
-
-#burgerOn{
-    display:none;
-    position: absolute;
-    justify-content: right;
-    flex-direction: column;
+.here{
+    color: #f5b926;
+    font-style: italic;    
+	font-weight: bolder; 
+	padding: 10px;    
 }
 
-#burgerOn:target{
-    display: flex;            
-}
+/* footer */
 
-#burgerOff:target{
-    display: none;
-}
-
-#burgerOff{
-    display: block;    
-}
-
-
-
-header{
-    display: flex;
-    justify-content: space-between;
-    background-color: black;       
-}
-
-nav ul li{
-    font-size: 125%;    
-}
-
-a:link, a:visited{
-    color: grey;
-    text-decoration: none;    
-}
 
 
 
