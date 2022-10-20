@@ -236,8 +236,12 @@ footer li{
     margin: 0 4px;
 }
 
-li:hover{
+li:hover{    
     font-weight: bold;
+}
+
+form{
+    border: 2px;
 }
 
 @media screen and (max-width:900px) {
@@ -299,7 +303,11 @@ li:hover{
         margin-left: -20px;
     }
 
-    footer{
-        
+    footer, ul{
+        display: block;        
+    }
+
+    footer li{
+
     }
 }
