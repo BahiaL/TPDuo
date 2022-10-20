@@ -31,45 +31,50 @@
     </header>
     <main>
         <h1>Contact</h1>
-        <form action="monProgramme.php" method="post">
-            <fieldset>
-                <legend>Informations personnelles</legend>
-                <div>
-                    <label class="infoperso" for="pseudo">Pseudo:</label>
-                    <input type="text" name="pseudo" placeholder="Mon Pseudo" id="pseudo">
-                </div>
-                <div>
-                    <label class="infoperso" for="sexe">Sexe:</label>
-                    <select name="sexe" id="sexe">
-                        <option value="--"></option>
-                        <option value="femme">Femme</option>
-                        <option value="homme">Homme</option>
-                        <option value="autre">Autre</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="infoperso" for="email">E-mail:</label>
-                    <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email"> 
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Aimez vous le folklore?</legend>
-                <div>
-                    <input type="radio" name="ouin" id="oui">
-                    <label for="oui">Oui</label>
-                </div>
-                <div>
-                    <input type="radio" name="non" id="non">
-                    <label for="non">Non</label>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend>Connaissez vous d'autres mythes?</legend>
-                <label for="commentaire">Racontez nous un autre mythe ou donnez nous votre avis!</label>
-                <br> 
-                <textarea name="commentaire" placeholder="Racontez nous!" id="commentaire" cols="40" rows="10"></textarea>
-            </fieldset>
-        </form>
+        <div id="pgContact">
+            <form action="monProgramme.php" method="post">
+                <fieldset>
+                    <legend>Informations personnelles</legend>
+                    <div>
+                        <label class="infoperso" for="pseudo">Pseudo:</label>
+                        <input type="text" name="pseudo" placeholder="Mon Pseudo" id="pseudo">
+                    </div>
+                    <div>
+                        <label class="infoperso" for="sexe">Sexe:</label>
+                        <select name="sexe" id="sexe">
+                            <option value="--"></option>
+                            <option value="femme">Femme</option>
+                            <option value="homme">Homme</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="infoperso" for="email">E-mail:</label>
+                        <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email"> 
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Aimez vous le folklore?</legend>
+                    <div>
+                        <input type="radio" name="ouin" id="oui">
+                        <label for="oui">Oui</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="non" id="non">
+                        <label for="non">Non</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Connaissez vous d'autres mythes?</legend>
+                    <label for="commentaire">Racontez nous un autre mythe ou donnez nous votre avis!</label>
+                    <br> 
+                    <textarea name="commentaire" placeholder="Racontez nous!" id="commentaire" cols="40" rows="10"></textarea>
+                </fieldset>
+            </form>
+            <div id="bresildrapeau">
+                <img src="images/bresildrapeau.png" alt="bresildrapeau">
+            </div>
+        </div>
     </main>
     <footer>
         <p>Site créé par des novices</p>        
