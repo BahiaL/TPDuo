@@ -35,40 +35,35 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+    display: flex;    
     background-color: black;    
 }
 
 /* nav */
 
 ul li{
-    list-style-type: none;
+    display: inline-flex;
+    list-style-type: none;             
 }
-/* burger */
-/* nav{
-    display: flex;
-    margin: 4px 10px 0 0;
-           
+
+nav{   
+    margin: 4px 10px 0 0;           
 }
 
 #burgerOn{
-    display:none;
-    position: absolute;
-    justify-content: right;
-    flex-direction: column;
+    display:flex;            
 }
 
-#burgerOn:target{
-    display: flex;            
+/* #burgerOn:target{
+    display: none;            
 }
 
 #burgerOff:target{
     display: none;
-}
+} */
 
 #burgerOff{
-    display: block;    
+    display: none;    
 }
 
 nav ul li{
@@ -84,7 +79,7 @@ a:link, a:visited, .here{
 
 a:hover{
 	color: #368851;
-} */
+}
 
 /* carroussel */
 
