@@ -66,10 +66,11 @@ nav img{
 }
 
 nav ul li{
-    font-size: 125%; 
-    padding: 10px;
-    display: inline-flex;   
+    font-size: 125%;
+    padding: 10px;    
+       
 }
+
 
 a:link, a:visited{
     color: #f5b926;
@@ -335,9 +336,9 @@ li:hover{
         display: block;    
     }
 
-    nav li{
+    nav ul li{
         font-size: 125%;
-        margin: 1px;    
+        padding: 4px 0;    
     }
 
     /* carte --------------------------------------------------*/
