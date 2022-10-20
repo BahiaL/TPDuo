@@ -30,7 +30,7 @@ body{
 /* header */
 
 header{
-	background-color: black ;
+	background-color: black ;    
 }
 
 #logo{
@@ -53,9 +53,7 @@ ul li{
 /* burger */
 nav{
     display: flex;
-    width: 8%;
-    height: 8%;
-    
+    margin: 4px 10px 0 0;
            
 }
 
