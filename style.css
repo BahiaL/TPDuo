@@ -221,3 +221,30 @@ h2{
     height: 200px;
     width: auto;
 }
+
+footer{
+    background-color: lightgrey;
+    opacity: 0.4;
+    display: flex;
+    margin: 50px 0 0 0;
+    padding: 10px 40px 100px 40px;
+    justify-content: space-between;        
+}
+
+footer p{    
+    color: black;        
+}
+
+footer ul{
+    display: flex;
+}
+
+footer li{
+    margin: 0 4px;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+
