@@ -24,7 +24,7 @@ time, mark, audio, video {
 /* css */
 
 body{
-	background-color: rgba(71, 97, 33, 0.753);
+	background-color: rgba(151, 252, 0, 0.274);
 }
 
 /* header */
@@ -118,9 +118,9 @@ a:hover{
     padding: 5px;
     display: inline-flex;
     align-items: center;
-    background-color: lightgray;
-    height: 3px;
-    width: 3px;
+    background-color: #f5b926;
+    height: 2px;
+    width: 2px;
     border-radius: 50%; 
 }
 /* main */
@@ -129,7 +129,7 @@ main{
 }
 
 h1{
-    color: #502faa91;
+    color: blue;
     text-align: center;
     font-size: 250%;
     font-weight: bolder;
@@ -142,7 +142,7 @@ p{
 }
 
 h2{
-    color: #502faa91;
+    color: blue;
     text-align: left;
     font-size: 200%;
     font-weight: bolder;
@@ -154,13 +154,66 @@ h2{
     height: 10%;    
 }
 
-article{
+.articlesmall{
     display: block;
 }
 
+/* carte et page bresil  */
 
+#carte{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
+#carte div>*:hover {
+    background-color: rgba(255, 255, 6, 0.575);
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 4, 0.205);
+}
 
+.haut {
+    display: flex;
+}
 
+.milieu{
+    display: flex;
+    align-items: center;
+}
 
+.bas{
+    display: flex;
+    margin-left: 70px ;
+}
 
+#nordest {
+    margin-left: -40px;
+    margin-top: 40px;
+}
+
+#centrouest{
+    margin-top: -150px;
+    margin-left: 70px;
+}
+
+#sudest{
+    margin-left: -90px;
+    margin-top: -20px;
+}
+
+#sud{
+    margin-top: -50px;
+}
+
+.articlebresil{
+    text-align: center;
+}
+
+.articlebresil>*{
+    padding: 20px;;    
+}
+
+.imgbresil{
+    height: 200px;
+    width: auto;
+}
