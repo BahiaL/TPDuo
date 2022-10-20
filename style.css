@@ -49,7 +49,8 @@ ul li{
 nav{   
     margin: 0 0 10px 50px; 
     display: flex;
-    align-items: flex-end;          
+    align-items: flex-end;
+              
 }
 
 nav img{
@@ -66,7 +67,8 @@ nav img{
 
 nav ul li{
     font-size: 125%; 
-    padding: 10px;   
+    padding: 10px;
+    display: inline-flex;   
 }
 
 a:link, a:visited{
@@ -152,6 +154,14 @@ h2{
 
 .articlesmall{
     display: block;
+}
+
+a[href="#pgUp"]{
+    color: #368851;
+}
+
+a[href="#pgUp"]:hover{
+    color: #0000ff;
 }
 
 /* carte et page bresil  */
@@ -246,18 +256,17 @@ form{
 
     header{
         padding-bottom: 40px;
+        justify-content: space-between;
     }
     
 
-    ul li{
-        list-style-type: none;        
-    }
+    
     /* burger */
     nav{
         background-color: black;
         display: flex;
         margin: 4px 10px 0 0;
-            
+        align-items: inherit;            
     }
 
     #burgerOn{
@@ -272,7 +281,7 @@ form{
     }
 
     #burgerOn:target{
-        display: flex;            
+        display: flex;                    
     }
 
     #burgerOff:target{
@@ -284,7 +293,8 @@ form{
     }
 
     nav li{
-        font-size: 125%;    
+        font-size: 125%;
+        margin: 1px;    
     }
 
     /* carte --------------------------------------------------*/
