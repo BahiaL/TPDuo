@@ -224,6 +224,54 @@ a[href="#pgUp"]:hover{
     width: auto;
 }
 
+/* Page Folklore */
+
+#galerie{
+    text-align: center;
+    margin: 50px;   
+}
+
+.imggalerie{
+    height: 150px;
+    padding: 10px;
+}
+
+.videos h2{
+    text-align: center;
+}
+
+.videos{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+video{
+        width: 100%;
+}
+
+/* formulaire et page contact */
+
+fieldset{
+    background-color: #4eaf2879;
+}
+
+form{
+    color: blue;
+    font-weight: bolder;
+}
+
+.infoperso{
+    display: block;
+	width: 150px;
+	float: left;
+}
+
+legend{
+    font-size: larger;
+}
+
 /* footer */
 
 footer{
@@ -313,5 +361,12 @@ form{
         margin: 10px;
         justify-content: center;        
     }
-    
+
+    /* page folklore */
+
+    @media screen and (max-width:900px) {
+        .imggalerie{
+            height: 80px;
+        }
+    }
 }
