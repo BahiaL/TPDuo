@@ -115,7 +115,7 @@ a:hover{
     padding: 5px;
     display: inline-flex;
     align-items: center;
-    background-color: #f5b926;
+    background-color: #358122;
     height: 2px;
     width: 2px;
     border-radius: 50%; 
@@ -156,7 +156,7 @@ h2{
 }
 
 a:link, a:visited, .here{
-    color: #f5b926;
+    color: #358122;
     text-decoration: none; 
     font-weight: bolder; 
     padding: 10px; 
@@ -221,6 +221,8 @@ a:link, a:visited, .here{
     height: 200px;
     width: auto;
 }
+
+/* footer */
 
 footer{
     background-color: lightgrey;
