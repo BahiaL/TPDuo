@@ -35,15 +35,15 @@
             <fieldset>
                 <legend>Informations personnelles</legend>
                 <div>
-                    <label for="prenom">Prénom:</label>
+                    <label class="infoperso" for="prenom">Prénom:</label>
                     <input type="text" name="prenom" placeholder="Ex: Jean" id="prenom">
                 </div>
                 <div>
-                    <label for="nom">Nom:</label>
+                    <label class="infoperso" for="nom">Nom:</label>
                     <input type="text" name="prenom" placeholder="Ex: Dupont" id="nom">
                 </div>
                 <div>
-                    <label for="sexe">Sexe:</label>
+                    <label class="infoperso" for="sexe">Sexe:</label>
                     <select name="sexe" id="sexe">
                         <option value="--"></option>
                         <option value="femme">Femme</option>
@@ -52,11 +52,11 @@
                     </select>
                 </div>
                 <div>
-                    <label for="email">E-mail:</label>
+                    <label class="infoperso" for="email">E-mail:</label>
                     <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email"> 
                 </div>
                 <div>
-                    <label for="numero">Numéro</label>
+                    <label class="infoperso" for="numero">Numéro</label>
                     <input type="tel" name="numero" placeholder="Ex: 00.11.22.33.44" id="numero">
                 </div>
             </fieldset>
@@ -70,6 +70,12 @@
                     <input type="radio" name="non" id="non">
                     <label for="non">Non</label>
                 </div>
+            </fieldset>
+            <fieldset>
+                <legend>Connaissez vous d'autres mythes?</legend>
+                <label for="commentaire">Racontez nous un autre mythe ou donnez nous votre avis!</label>
+                <br> 
+                <textarea name="commentaire" placeholder="Racontez nous!" id="commentaire" cols="70" rows="10"></textarea>
             </fieldset>
         </form>
     </main>

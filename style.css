@@ -24,7 +24,7 @@ time, mark, audio, video {
 /* css */
 
 body{
-	background-color: #97fc0046;
+	background-color: #f4e458;
 }
 
 /* header */
@@ -121,7 +121,7 @@ main{
 }
 
 h1{
-    color: blue;
+    color: #0000ff;
     text-align: center;
     font-size: 250%;
     font-weight: bolder;
