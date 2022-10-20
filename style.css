@@ -298,8 +298,9 @@ footer li{
     margin: 0 4px;
 }
 
-li:hover{    
-    font-weight: bolder;
+footer li img:hover{    
+    height: 40px;
+    width: 40px;
 } 
 
 @media screen and (max-width: 900px) {
