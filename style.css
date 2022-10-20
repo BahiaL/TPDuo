@@ -273,6 +273,11 @@ legend{
     font-size: larger;
 }
 
+#pgContact{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* footer */
 
 footer{
@@ -372,4 +377,17 @@ li:hover{
     iframe{
         width: 100%;
     }
+
+    /* Page contact */
+
+    #pgContact{
+        flex-direction: column;
+    }
+
+    #bresildrapeau{
+        padding: 20px;
+        text-align: center;
+    }
+
+
 }
