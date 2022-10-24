@@ -251,6 +251,11 @@ a[href="#pgUp"]:hover{
     border: 2px solid green;
 }
 
+iframe{
+    height: 531;
+    width: 944;
+}
+
 /* formulaire et page contact */
 
 fieldset{
