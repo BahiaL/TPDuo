@@ -93,24 +93,26 @@ a:hover{
 #carroussel{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 }
 
 #slide{
     display: flex;
-    overflow-x: scroll;
+    flex-direction: column;
+    overflow: scroll;
     overflow: hidden;  
-    scroll-behavior: smooth; 
-    padding: 20px;
+    scroll-behavior: smooth;  
+    height: 420px;
+    width: 100%;
 }
 
 .imageslide{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 420px;
+    display: flex; 
+    justify-content: center; 
+    height: 100%;
     width: 100%; 
     flex-shrink: 0; 
+    padding: 20px;
 }
 
 .navimage{
@@ -122,6 +124,28 @@ a:hover{
     width: 4px;
     border-radius: 50%; 
 }
+
+/* #carroussel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slide{
+    display: flex;
+    overflow-x: scroll;
+    overflow: hidden;  
+    scroll-behavior: smooth; 
+    padding: 20px;  
+}
+
+.imageslide{
+    display: flex;
+    justify-content: center;    
+    height: 420px;
+    width: 100%; 
+    flex-shrink: 0; 
+} */
 
 /* main */
 
